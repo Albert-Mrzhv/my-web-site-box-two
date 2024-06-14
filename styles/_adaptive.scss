@@ -1,0 +1,124 @@
+@media (max-width: 3000px) {
+    .header {
+        &__texts-two {
+            display: none;
+        }
+        &__title-two {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 1010px) {
+    .header {
+        &__texts {
+            display: none;
+        }
+        &__bottom {
+            border: 2px solid #A78BFA;
+            border-left: none;
+            border-right: none;
+            padding-top: 11px;
+        }
+        &__texts-two {
+            display: block;
+            display: flex;
+            justify-content: center;
+        }
+        &__text-two {
+            width: 232px;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 780px) {
+    .header {
+        &__top {
+            margin: 0;
+            align-items: center;
+            padding: 20px 0;
+        }
+        &__texts {
+            display: none;
+        }
+        &__txt {
+            display: none;
+        }
+        &__bottom {
+            display: none;
+        }
+        &__texts-two {
+            display: none;
+        }
+        &__num {
+            font-size: 20px;
+            padding-right: 30px;
+        }
+        &__bottom-two {
+            display: block;
+            display: flex;
+            justify-content: space-between;
+            border: 2px solid #A78BFA;
+            border-left: none;
+            border-right: none;
+            padding-top: 11px;
+        }
+    }
+    .mobile-navigation {
+        display: block;
+    }
+}
+
+@media (max-width: 597px) {
+    .header {
+        &__icon {
+            width: 40px;
+        }
+        &__title {
+            font-size: 19px;
+        }
+        &__num {
+            font-size: 16px;
+        }
+        &__lists {
+            font-size: 12px;
+            column-gap: 8px;
+        }
+        &__button {
+            width: 156px;
+            height: 33px;
+        }
+    }
+}
+
+@media (max-width: 490px) {
+    .header {
+        &__title {
+            font-size: 15px;
+        }
+        &__title-two {
+            display: block;
+            font-size: 15px;
+        }
+        &__num {
+            font-size: 12px;
+        }
+        &__lists {
+            font-size: 8px;
+        }
+        &__button {
+            width: 100px;
+            height: 22px;
+            font-size: 9px;
+        }
+    }
+}
+
+@media (max-width: 398px) {
+    .header {
+        &__title {
+            display: none;
+        }
+    }
+}

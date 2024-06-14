@@ -1,0 +1,14 @@
+{
+  "name": "from-dev",
+  "version": "1.0.0",
+  "description": "My site From Dev",
+  "source": "index.html",
+  "scripts": {
+    "scss:start": "sass --style=expanded --watch styles:pubg"
+  },
+  "author": "Albert Mr",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.77.5"
+  }
+}
