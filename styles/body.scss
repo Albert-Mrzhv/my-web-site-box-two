@@ -1,0 +1,125 @@
+.container {
+    background-color: #E5E7EB;
+    padding-top: 62px;
+    margin-top: 40px;
+    .main {
+        max-width: 1486px;
+        padding: 0 30px;
+        margin: 0 auto;
+        &__container-delivery-form {
+            display: flex;
+            justify-content: space-between;
+            column-gap: 24px;
+        }
+        &__block-delivery {
+            width: 100%;
+        }
+        &__title {
+            font-weight: 900;
+            font-size: 36px;
+            max-width: 706px;
+            text-align: start;
+        }
+        &__text {
+            max-width: 756px;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        &__img {
+            background-image: url("../images/img/rectangle.png");
+            width: 100%;
+            height: 352px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            object-fit: cover;
+            
+        }
+
+        &__block-forms {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #fff;
+            border-radius: 16px;
+        }
+        &__title-calculstor {
+            max-width: 436px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 700;
+            margin: 0;
+            padding-top: 40px;
+            padding: 20px 20px 0 20px;
+        }
+        &__text-counting {
+            max-width: 358px;
+            font-weight: 400;
+            text-align: center;
+            padding: 0 20px;
+        }
+        &__form {
+            margin-top: 28px;
+            text-align: center;
+            // width: 496px;
+            display: grid;
+            gap: 24px;
+            margin-bottom: 28px;
+            grid-template-areas: 
+                "main__name main__name"
+                "main__email main__phone"
+                "main__square main__weight"
+                "main__country main__sity"
+                "main__area main__sity-delivery"
+            ;
+        }
+        &__name {
+            width: 496px;
+            height: 48px;
+            border: 2px solid #000;
+            border-radius: 4px;
+            padding-left: 11px;
+            grid-area: main__name;
+        }
+        &__input {
+            height: 48px;
+            border: 2px solid #000;
+            border-radius: 4px;
+            padding-left: 11px;
+        }
+        &__email {
+            grid-area: main__email;
+        }
+        &__phone {
+            grid-area: main__phone;
+        }
+        &__square {
+            grid-area: main__square;
+        }
+        &__weight {
+            grid-area: main__weight;
+        }
+        &__country {
+            grid-area: main__country;
+        }
+        &__sity {
+            grid-area: main__sity;
+        }
+        &__area {
+            grid-area: main__area;
+        }
+        &__sity-delivery {
+            grid-area: main__sity-delivery;
+        }
+        &__button {
+            width: 496px;
+            height: 44px;
+            background-color: #8B5CF6;
+            border: none;
+            font-weight: 700;
+            color: #fff;
+            border-radius: 4px;
+        }
+    }
+}

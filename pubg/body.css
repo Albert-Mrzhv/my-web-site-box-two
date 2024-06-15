@@ -1,0 +1,118 @@
+.container {
+  background-color: #E5E7EB;
+  padding-top: 62px;
+  margin-top: 40px;
+}
+.container .main {
+  max-width: 1486px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+.container .main__container-delivery-form {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 24px;
+}
+.container .main__block-delivery {
+  width: 100%;
+}
+.container .main__title {
+  font-weight: 900;
+  font-size: 36px;
+  max-width: 706px;
+  text-align: start;
+}
+.container .main__text {
+  max-width: 756px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.container .main__img {
+  background-image: url("../images/img/rectangle.png");
+  width: 100%;
+  height: 352px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+.container .main__block-forms {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 16px;
+}
+.container .main__title-calculstor {
+  max-width: 436px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+  padding-top: 40px;
+  padding: 20px 20px 0 20px;
+}
+.container .main__text-counting {
+  max-width: 358px;
+  font-weight: 400;
+  text-align: center;
+  padding: 0 20px;
+}
+.container .main__form {
+  margin-top: 28px;
+  text-align: center;
+  display: grid;
+  gap: 24px;
+  margin-bottom: 28px;
+  grid-template-areas: "main__name main__name" "main__email main__phone" "main__square main__weight" "main__country main__sity" "main__area main__sity-delivery";
+}
+.container .main__name {
+  width: 496px;
+  height: 48px;
+  border: 2px solid #000;
+  border-radius: 4px;
+  padding-left: 11px;
+  grid-area: main__name;
+}
+.container .main__input {
+  height: 48px;
+  border: 2px solid #000;
+  border-radius: 4px;
+  padding-left: 11px;
+}
+.container .main__email {
+  grid-area: main__email;
+}
+.container .main__phone {
+  grid-area: main__phone;
+}
+.container .main__square {
+  grid-area: main__square;
+}
+.container .main__weight {
+  grid-area: main__weight;
+}
+.container .main__country {
+  grid-area: main__country;
+}
+.container .main__sity {
+  grid-area: main__sity;
+}
+.container .main__area {
+  grid-area: main__area;
+}
+.container .main__sity-delivery {
+  grid-area: main__sity-delivery;
+}
+.container .main__button {
+  width: 496px;
+  height: 44px;
+  background-color: #8B5CF6;
+  border: none;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 4px;
+}
+
+/*# sourceMappingURL=body.css.map */

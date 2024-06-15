@@ -1,8 +1,6 @@
 .mobile-navigation {
     display: none;
 }
-.contain {
-}
 
 .mobile-navigation-burger {
     display: flex;
@@ -12,19 +10,10 @@
 
 }
 
-// .mobile-navigation-close {
-//     display: flex;
-//     justify-content: flex-end;
-//     margin-top: -64px;
-//     margin-right: 20px;
-// }
-
-
 .mobile-navigation-toggler {
     display: none;
 }
-.header__bottom-two {
-}
+
 
 .mobile-navigation-visin {
     transition: all 0.33s;
@@ -45,29 +34,12 @@
     background-color: white;
 }
 
-.header__list {
-}
-.header__lists {
-}
-.header__li {
-}
-.header__li-1 {
-}
-.header__li-3 {
-}
-.header__btn {
-}
-.header__button {
-}
 .header__texts-three {
     display: flex;
     font-size: 13px;
     flex-wrap: wrap;
 }
-.header__text-two {
-}
-.header__text {
-}
+
 .mobile-navigation-close {
     width: 20px;
 }

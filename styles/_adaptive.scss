@@ -9,6 +9,20 @@
     }
 }
 
+@media (max-width: 1372px) {
+    .main {
+        &__container-delivery-form {
+            flex-direction: column;
+        }
+        &__block-delivery {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 28px;
+        }
+    }
+}
+
 @media (max-width: 1010px) {
     .header {
         &__texts {
@@ -38,6 +52,9 @@
             margin: 0;
             align-items: center;
             padding: 20px 0;
+        }
+        &__texts-two {
+            padding-bottom: 30px;
         }
         &__texts {
             display: none;
@@ -90,12 +107,28 @@
             height: 33px;
         }
     }
+    .container {
+        .main {
+            &__name {
+                width: 396px;
+                height: 48px;
+            }
+            &__input {
+                height: 48px;
+            }
+            &__button {
+                width: 396px;
+            }
+        }
+    }
 }
 
 @media (max-width: 490px) {
     .header {
+        padding: 0 20px 0 10px;
         &__title {
             font-size: 15px;
+            display: none;
         }
         &__title-two {
             display: block;
@@ -113,12 +146,61 @@
             font-size: 9px;
         }
     }
+    .container {
+        padding-top: 0;
+        .main {
+            &__name {
+                width: 296px;
+                height: 48px;
+            }
+            &__input {
+                width: 135px;
+                height: 48px;
+            }
+            &__button {
+                width: 296px;
+            }
+        }
+    }
 }
 
 @media (max-width: 398px) {
     .header {
         &__title {
             display: none;
+        }
+    }
+    .container {
+        .main {
+            &__name {
+                width: 296px;
+                height: 48px;
+            }
+            &__input {
+                width: 135px;
+                height: 48px;
+            }
+            &__button {
+                width: 296px;
+            }
+        }
+    }
+}
+
+@media (max-width: 377px) {
+    .container {
+        .main {
+            &__name {
+                width: 234px;
+                height: 38px;
+            }
+            &__input {
+                width: 105px;
+                height: 38px;
+            }
+            &__button {
+                width: 234px;
+            }
         }
     }
 }
