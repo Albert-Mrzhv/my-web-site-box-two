@@ -9,16 +9,18 @@
     }
 }
 
-@media (max-width: 1495px) {
+@media (max-width: 1494px) {
     .container {
         .main {
             &__img-title {
                 display: flex;
-                flex-direction: column;
-                align-items: center;
+                justify-content: center;
             }
             &__title-certificate {
                 font-size: 16px;
+            }
+            &__img-sertificate {
+                width: 320px;
             }
             &__img-sertificate {
                 width: 320px;
@@ -41,6 +43,11 @@
             }
             &__block {
                 grid-template-columns: 1fr 1fr;
+            }
+            &__img-title {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
             }
         }
     }
