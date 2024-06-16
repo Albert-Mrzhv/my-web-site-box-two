@@ -44,6 +44,7 @@
             align-items: center;
             background-color: #fff;
             border-radius: 16px;
+            padding-bottom: 30px;
         }
         &__title-calculstor {
             max-width: 436px;
@@ -63,7 +64,6 @@
         &__form {
             margin-top: 28px;
             text-align: center;
-            // width: 496px;
             display: grid;
             gap: 24px;
             margin-bottom: 28px;
@@ -123,6 +123,9 @@
             border-radius: 4px;
         }
 
+        &__advantages {
+            margin-bottom: 80px;
+        }
         &__title__advantages {
             text-align: center;
             font-size: 30px;
@@ -149,6 +152,65 @@
         &__text-advantages {
             font-size: 14px;
             font-weight: 400;
+        }
+
+        &__guarantees {
+            margin-bottom: 76px;
+        }
+        &__guarantees-title {
+            margin: 0;
+            margin-bottom: 29px;
+        }
+        &__title-guarantees {
+            max-width: 756px;
+            text-align: center;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+        &__img-title {
+            display: flex;
+        }
+        &__btn-documents {
+            width: 245px;
+            border-radius: 12px;
+            padding: 16px, 28px, 16px, 28px;
+        }
+        &__title-certificate {
+            text-align: center;
+        }
+        &__btn-show-documents {
+            display: flex;
+            justify-content: center;
+        }
+
+        &__title-reviews {
+            text-align: center;
+            font-weight: 900;
+            font-size: 30px;
+        }
+        &__arrow-block {
+            display: flex;
+            column-gap: 24px;
+        }
+        &__blocks {
+            background-color: #fff;
+            padding: 41px 52px 17px 41px;
+            border-radius: 16px;
+            max-width: 626px;
+        }
+        &__name-one {
+            font-weight: 300;
+            font-size: 24px;
+            color: #6B7280;
+        }
+        &__text {
+            font-weight: 700;
+            font-size: 24px;
+        }
+        &__name-img {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
     }
 }
