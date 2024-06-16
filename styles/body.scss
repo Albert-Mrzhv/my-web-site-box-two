@@ -10,6 +10,7 @@
             display: flex;
             justify-content: space-between;
             column-gap: 24px;
+            margin-bottom: 72px;
         }
         &__block-delivery {
             width: 100%;
@@ -120,6 +121,34 @@
             font-weight: 700;
             color: #fff;
             border-radius: 4px;
+        }
+
+        &__title__advantages {
+            text-align: center;
+            font-size: 30px;
+            font-weight: 900;
+            margin-bottom: 42px;
+        }
+        &__block {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 60px;
+        }
+        &__block-img {
+            display: flex;
+            column-gap: 21px;
+        }
+        &__image {
+            width: 136px;
+            height: 136px;
+        }
+        &__title-advantages {
+            font-size: 24px;
+            font-weight: 900;
+        }
+        &__text-advantages {
+            font-size: 14px;
+            font-weight: 400;
         }
     }
 }

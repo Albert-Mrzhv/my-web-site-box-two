@@ -12,6 +12,7 @@
   display: flex;
   justify-content: space-between;
   column-gap: 24px;
+  margin-bottom: 72px;
 }
 .container .main__block-delivery {
   width: 100%;
@@ -113,6 +114,33 @@
   font-weight: 700;
   color: #fff;
   border-radius: 4px;
+}
+.container .main__title__advantages {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 42px;
+}
+.container .main__block {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 60px;
+}
+.container .main__block-img {
+  display: flex;
+  column-gap: 21px;
+}
+.container .main__image {
+  width: 136px;
+  height: 136px;
+}
+.container .main__title-advantages {
+  font-size: 24px;
+  font-weight: 900;
+}
+.container .main__text-advantages {
+  font-size: 14px;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=body.css.map */
