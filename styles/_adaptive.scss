@@ -7,6 +7,13 @@
             display: none;
         }
     }
+    .container__footer {
+        .footer {
+            &__two-list {
+                display: none;
+            }
+        }
+    }
 }
 
 @media (max-width: 1494px) {
@@ -88,6 +95,33 @@
             }
         }
     }
+    .container__footer {
+        .footer {
+            &__top {
+
+            }
+            &__list {
+                display: none;
+            }
+            &__bottom {
+                flex-direction: column;
+                align-items: center;
+            }
+            &__bottom-text {
+                text-align: center;
+            }
+            &__text-name {
+                display: flex;
+                column-gap: 4px;
+            }
+            &__two-list {
+                display: block;
+                color: #F9FAFB;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
 }
 
 @media (max-width: 780px) {
@@ -128,6 +162,40 @@
     }
     .mobile-navigation {
         display: block;
+    }
+    .container__footer {
+        .footer {
+            &__img-title {
+                align-items: center;
+            }
+            &__img {
+                width: 50px;
+            }
+            &__num {
+                font-size: 25px;
+            }
+            &__txt {
+                font-size: 12px;
+                margin: 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 624px) {
+    .container__footer {
+        .footer {
+            &__top {
+                flex-direction: column;
+                align-items: center;
+            }
+            &__img-title {
+                order: 1;
+            }
+            &__number {
+                order: 0;
+            }
+        }
     }
 }
 
@@ -200,6 +268,12 @@
             &__blocks {
                 padding: 10px 29px;
             }
+            &__lost-input {
+                width: 200px;
+            }
+            &__comments-bottom {
+                width: 420px;
+            }
         }
     }
 }
@@ -241,6 +315,36 @@
             &__button {
                 width: 296px;
             }
+            &__lost-input {
+                width: 140px;
+            }
+            &__comments-bottom {
+                width: 300px;
+            }
+        }
+    }
+    .container__footer {
+        .footer {
+            padding: 19px 30px 21px 30px;
+            &__img {
+                width: 40px;
+            }
+            &__txt {
+                text-align: center;
+            }
+            &__text-name {
+                flex-direction: column;
+                align-items: center;
+            }
+            &__li {
+                font-size: 12px;
+            }
+            &__macet {
+                margin: 0;
+            }
+            &__name {
+                margin: 0;
+            }
         }
     }
 }
@@ -264,6 +368,21 @@
             &__button {
                 width: 296px;
             }
+            &__reviews {
+                margin-bottom: 30px;
+            }
+            &__lost-forms {
+                padding: 20px 0;
+            }
+            &__title-questions {
+                font-size: 23px;
+            }
+            &__lost-input {
+                width: 100px;
+            }
+            &__comments-bottom {
+                width: 240px;
+            }
         }
     }
 }
@@ -281,6 +400,37 @@
             }
             &__button {
                 width: 234px;
+            }
+        }
+    }
+    .container__footer {
+        .footer {
+            padding: 19px 30px 21px 30px;
+            &__img {
+                width: 40px;
+            }
+            &__img-title {
+                justify-content: center;
+                width: 300px;
+            }
+            &__txt {
+                text-align: center;
+            }
+            &__text-name {
+                flex-direction: column;
+                align-items: center;
+            }
+            &__li {
+                font-size: 10px;
+            }
+            &__img {
+                font-size: 20px;
+            }
+            &__num {
+                font-size: 19px;
+            }
+            &__title {
+                font-size: 19px;
             }
         }
     }

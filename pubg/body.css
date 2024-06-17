@@ -2,6 +2,7 @@
   background-color: #E5E7EB;
   padding-top: 62px;
   margin-top: 40px;
+  padding-bottom: 72px;
 }
 .container .main {
   max-width: 1486px;
@@ -174,6 +175,9 @@
   display: flex;
   justify-content: center;
 }
+.container .main__reviews {
+  margin-bottom: 72px;
+}
 .container .main__title-reviews {
   text-align: center;
   font-weight: 900;
@@ -202,6 +206,43 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.container .main__lost-forms {
+  background-color: #fff;
+  padding: 70px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 24px;
+  border-radius: 16px;
+}
+.container .main__title-questions {
+  font-weight: 900;
+  font-size: 30px;
+  margin: 0;
+}
+.container .main__form-questions {
+  max-width: 497px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+.container .main__lost-input {
+  width: 236px;
+  height: 48px;
+  border-radius: 4px;
+  border: 2px solid #000;
+  padding-left: 10px;
+}
+.container .main__comments-bottom {
+  width: 497px;
+  height: 150px;
+  border-radius: 4px;
+  border: 2px solid #000;
+  padding: 10px 0 0 10px;
+}
+.container .main ::placeholder {
+  color: #9CA3AF;
 }
 
 /*# sourceMappingURL=body.css.map */
